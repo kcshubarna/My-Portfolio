@@ -1,0 +1,32 @@
+.about {
+    padding: 40px;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #343a40; 
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #495057; 
+}
+/* Dark Mode Styles */
+.dark-mode {
+    color: #eee;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode h2 {
+    color: #fff;
+}
+
+.dark-mode p {
+    color: #ccc;
+}

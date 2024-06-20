@@ -1,0 +1,65 @@
+.contact-container {
+  
+    padding: 40px;
+    background-color: #f8f9fa; 
+    border-radius: 10px;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333; 
+}
+
+
+.social-links li {
+    
+    margin-bottom: 10px;
+    list-style-type:none;
+    text-align:center;
+  
+  
+
+}
+
+.social-links li a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2em;
+    transition: 0.3s ;
+}
+
+.social-links li a:hover {
+    color: black; 
+}
+/* Dark Mode Styles for Contact Container */
+.contact-container.dark-mode {
+    color: #eee;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.contact-container.dark-mode h2 {
+    color: #fff;
+}
+
+.contact-container.dark-mode .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-container.dark-mode .social-links li {
+    margin: 10px 0;
+}
+
+.contact-container.dark-mode .social-links li a {
+    color: #1e90ff;
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-container.dark-mode .social-links li a:hover {
+    color: #00aced;
+}

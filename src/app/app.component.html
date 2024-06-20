@@ -1,0 +1,15 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<mat-checkbox  [checked]="darkMode" (change)="toggleCheckbox()">Dark Mode</mat-checkbox>
+
+
+
+<app-header  [darkMode]="darkMode" [socialLinks]="social" [personalDetails]='personal'></app-header>
+<app-about [darkMode]="darkMode" ></app-about>
+<app-projects [darkMode]="darkMode" [project]="project"> 
+</app-projects>
+
+<app-contact [darkMode]="darkMode" [socialLinks]="social"></app-contact>
+<app-footer [darkMode]="darkMode" [student]="personal" [technology]="technology"></app-footer>
+
+

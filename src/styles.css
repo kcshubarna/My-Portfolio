@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* styles.css or styles.scss */
+
+/* Mat Checkbox Styles */
+.mat-checkbox {
+    display: inline-block;
+    margin: 20px;
+}
+
+.mat-checkbox .mat-checkbox-layout {
+    position: relative;
+}
+
+.mat-checkbox .mat-checkbox-inner-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mat-checkbox .mat-checkbox-inner-container .mat-checkbox-frame {
+    border: 2px solid #333; /* Border color */
+}
+
+.mat-checkbox .mat-checkbox-inner-container .mat-checkbox-background {
+    background-color: #333; /* Background color when checked */
+}
+
+.mat-checkbox .mat-checkbox-inner-container .mat-checkbox-checkmark {
+    color: #fff; /* Checkmark color when checked */
+}
+
+.mat-checkbox .mat-checkbox-inner-container .mat-checkbox-checkmark-path {
+    stroke: #fff; /* Checkmark path color when checked */
+}

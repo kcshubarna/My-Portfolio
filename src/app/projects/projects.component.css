@@ -1,0 +1,75 @@
+h2{
+    padding: 40px;
+}
+/* Style for mat-card */
+.mat-card {
+    width: 300px; /* Set the width of the card */
+    margin: 20px; /* Add margin around the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Style for mat-card-header */
+  .mat-card-header {
+    padding: 16px; /* Add padding to the header */
+    background-color: #f5f5f5; /* Set background color */
+  }
+  
+  /* Style for mat-card-avatar */
+  .mat-card-avatar {
+    width: 40px; /* Set the width of the avatar */
+    height: 40px; /* Set the height of the avatar */
+    border-radius: 50%; /* Make the avatar circular */
+    background-color: #ccc; /* Add a background color */
+  }
+  
+  /* Style for mat-card-title */
+  .mat-card-title {
+    font-size: 1.2em; /* Set the font size of the title */
+    margin-bottom: 8px; /* Add margin at the bottom */
+  }
+  
+  /* Style for mat-card-subtitle */
+  .mat-card-subtitle {
+    font-size: 1em; /* Set the font size of the subtitle */
+    color: #888; /* Set the color of the subtitle */
+  }
+  
+  /* Style for mat-card-content */
+  .mat-card-content {
+    padding: 16px; /* Add padding to the content */
+  }
+  
+  /* Style for mat-card-actions */
+  .mat-card-actions {
+    padding: 8px 16px; /* Add padding to the actions */
+    background-color: #f5f5f5; /* Set background color */
+    border-top: 1px solid #e0e0e0; /* Add a border at the top */
+  }
+  
+  /* Style for mat-card-footer */
+  .mat-card-footer {
+    padding: 16px; /* Add padding to the footer */
+    background-color: #f5f5f5; /* Set background color */
+  }
+  /* Dark Mode Styles for Mat Card */
+mat-card.dark-mode {
+  color: #eee;
+  background-color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+mat-card.dark-mode h2,
+mat-card.dark-mode mat-card-title,
+mat-card.dark-mode mat-card-subtitle {
+  color: #fff;
+}
+
+mat-card.dark-mode mat-card-content p {
+  color: #ccc;
+}
+
+mat-card.dark-mode mat-card-content img {
+  border: 1px solid #444; /* Optional: add a border for better visibility */
+}
+
+

@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #343a40; 
+   
+}
+
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 2.9em;
+    color: #f9fcff; 
+}
+
+.header h2 {
+    margin: 0.1em 0;
+    font-size: 1.5em;
+    color: #f9fcff; 
+}
+
+.header h3 {
+    margin: 0.1em 0;
+    font-size: 1.2em;
+    color:#f9fcff;
+}
+.header p a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+}
+
+.header p a:hover {
+    color: #0073e6;
+}
+
+/* Dark Mode Styles */
+.header.dark-mode {
+    color: #eee;
+    background-color: #333;
+}
+
+.header.dark-mode h1, 
+.header.dark-mode h2, 
+.header.dark-mode h3 {
+    color: #fff;
+}
+
+.header.dark-mode p a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.dark-mode p a:hover {
+    color: #00aced;
+}

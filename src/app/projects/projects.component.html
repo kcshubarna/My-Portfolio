@@ -1,0 +1,25 @@
+
+<mat-card *ngFor="let x of project" [ngClass]="{'dark-mode': darkMode}">
+    <h2>Project {{x.projectID}}</h2>
+    <mat-card-header>
+        
+        <div mat-card-avatar class=""></div>
+          <!-- Create a CSS class to include a 
+               background-image with background-size: cover -->
+        <mat-card-title>{{x.title}}</mat-card-title>
+        <mat-card-subtitle>{{x.subTitle}}</mat-card-subtitle>
+      </mat-card-header>
+    
+      <mat-card-content>
+        <img mat-card-image src="{{x.image}}" alt="">
+        <p></p>
+      </mat-card-content>
+    
+
+    
+ 
+</mat-card>
+
+
+      
+     

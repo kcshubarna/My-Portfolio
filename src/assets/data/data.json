@@ -1,0 +1,60 @@
+{	"name":{
+    "firstName":"Shubarna", 
+    "lastName":"K C"
+
+    },
+	"SocialLinks" : 
+		{"linkedin":"https://www.linkedin.com/in/shubarnakc/",
+        "x":"https://x.com/KShubarnaC",
+        "github":"https://github.com/kcshubarna",
+        "facebook":"https://www.facebook.com/profile.php?id=100053072862695"
+    }
+    
+	,
+	"projects": [{
+        "projectID":1,
+        "title":"Assignment 4-Linux",
+        "subTitle":"Directory File Type and Permission Analyzer",
+        "image":"assets\\images\\linux.png"
+    },
+    {
+        "projectID":2,
+        "title":"Assignment 2-Web Development",
+        "subTitle":"Creating a node app",
+        "image":"assets\\images\\web.png"
+    },
+    {
+        
+        "projectID":3,
+        "title":"Assignment 3-Cloud Enabled Networks",
+        "subTitle":"Load Balancer Setup",
+        "image":"assets\\images\\cloud.png"
+        
+    },
+    {
+        
+        "projectID":4,
+        "title":"Database Management Final Project",
+        "subTitle":"Creating a database system of an online retail shop",
+        "image":"assets\\images\\project.png"
+        
+    },
+    {
+        
+        "projectID":5,
+        "title":"Assignment 4- Java",
+        "subTitle":"Created an java program for a can dispenser machine",
+        "image":"assets\\images\\project2.png"
+        
+    }
+  
+
+	],
+    "technologyused":{
+        "first":"Angular",
+        "second":"Angular Material",
+        "third":"CSS",
+        "fourth":"HTML"
+
+    }
+}
